@@ -1,0 +1,9 @@
+stages:
+  - stage: helloWorldStage
+    displayName: Hello World Stage
+    jobs:
+    - job: helloWorldJob
+      displayName: Hello World Job
+      steps:
+      - script: echo Hello world!
+        displayName: Hello World Script
