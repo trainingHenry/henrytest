@@ -1,3 +1,6 @@
+pool:
+  Azure Pipelines
+
 stages:
   - stage: helloWorldStage
     displayName: Hello World Stage
